@@ -108,3 +108,8 @@ buttonPlay.addEventListener('click',function(){
     // playround(openent1);
     playBattle();
 });
+
+const buttonRetreat = document.getElementById("retreat");
+buttonRetreat.addEventListener('click',()=>{
+    location.reload()
+})
