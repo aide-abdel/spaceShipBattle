@@ -4,6 +4,8 @@
     margin: auto;
     border: solid black;
     height: 80vh;
+    background-image: url('https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhY2UlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-size: cover;
 }
 
 .battleground{
@@ -48,4 +50,20 @@
     right: 400px;
     top: 60%;
     display: block;
+}
+.gameBoard{
+    width:50%;
+    margin: auto;
+}
+.playGame{
+    width: 20%;
+    height: 5vh;
+    background-color: green;
+    color: white;
+}
+#retreat{
+    width: 20%;
+    height: 5vh;
+    background-color: orange;
+    color: white;
 }
